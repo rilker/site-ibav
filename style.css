@@ -996,6 +996,40 @@ body {
         font-size: 2rem;
     }
 
+    /* Melhorias para vídeo no mobile */
+    .hero-video {
+        display: block; /* Mostra vídeo no mobile */
+    }
+
+    .hero-video video {
+        object-fit: contain; /* Mostra vídeo completo sem cortar */
+        background: var(--gradient-vibrant); /* Fundo para as bordas */
+    }
+
+    .hero-fallback {
+        display: none; /* Esconde fallback quando vídeo está funcionando */
+    }
+
+    .fallback-bg {
+        background: var(--gradient-vibrant);
+        animation: backgroundShift 15s ease-in-out infinite;
+    }
+
+    .floating-particles {
+        display: block;
+    }
+
+    .particle {
+        width: 12px;
+        height: 12px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    /* Overlay mais transparente no mobile para não cobrir o vídeo */
+    .hero-overlay {
+        background: linear-gradient(135deg, rgba(30, 64, 175, 0.2), rgba(59, 130, 246, 0.15));
+    }
+
     .cultos-content {
         grid-template-columns: 1fr;
         gap: 2rem;
