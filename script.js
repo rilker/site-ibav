@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Navegação mobile
     function toggleMobileNav() {
+        console.log('Menu toggle clicked!');
         navList.classList.toggle('active');
         
         // Animar as barras do hamburger
@@ -65,6 +66,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 span.style.opacity = '1';
             }
         });
+        
+        console.log('Menu active:', navList.classList.contains('active'));
     }
 
     navToggle.addEventListener('click', toggleMobileNav);
