@@ -1,0 +1,43 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.log
+
+# Arquivos de backup
+*.bak
+*.backup
+*~
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de dependências (se houver)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Arquivos de build
+dist/
+build/
+
+# Arquivos de configuração local
+.env
+.env.local
+.env.production
+
+# Arquivos de mídia grandes (opcional)
+*.mp4
+*.avi
+*.mov
+*.wmv
+
+# Arquivos ZIP (já que temos o site-ibav.zip)
+*.zip 
