@@ -1002,7 +1002,7 @@ body {
     }
 
     .hero-video video {
-        object-fit: contain; /* Mostra vídeo completo sem cortar */
+        object-fit: cover; /* Preenche toda a tela */
         background: var(--gradient-vibrant); /* Fundo para as bordas */
     }
 
