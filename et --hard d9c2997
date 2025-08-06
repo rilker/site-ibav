@@ -1,0 +1,5 @@
+[33m498701e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Otimiza site para mobile - melhora performance e responsividade
+[33md9c2997[m Corrige menu mobile - aumenta z-index e adiciona logs para debug
+[33m6e77a8f[m Corrige z-index do menu mobile para aparecer corretamente
+[33md2bbf24[m Vídeo preenche toda a tela no mobile
+[33m9719e3d[m Melhora responsividade do vídeo no mobile - mostra vídeo completo
